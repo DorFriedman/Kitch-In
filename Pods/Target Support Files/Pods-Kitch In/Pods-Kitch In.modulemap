@@ -1,0 +1,6 @@
+framework module Pods_Kitch_In {
+  umbrella header "Pods-Kitch In-umbrella.h"
+
+  export *
+  module * { export * }
+}

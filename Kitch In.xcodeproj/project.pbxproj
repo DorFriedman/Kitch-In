@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2410D7F821A14A4C00904CF0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2410D7F721A14A4C00904CF0 /* Podfile */; };
 		248A588021A146590039097B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A587F21A146590039097B /* AppDelegate.swift */; };
 		248A588221A146590039097B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A588121A146590039097B /* ViewController.swift */; };
 		248A588521A146590039097B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248A588321A146590039097B /* Main.storyboard */; };
 		248A588821A1465A0039097B /* Kitch_In.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 248A588621A1465A0039097B /* Kitch_In.xcdatamodeld */; };
 		248A588A21A1465B0039097B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248A588921A1465B0039097B /* Assets.xcassets */; };
 		248A588D21A1465B0039097B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248A588B21A1465B0039097B /* LaunchScreen.storyboard */; };
+		248A589521A149710039097B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 248A589421A149710039097B /* GoogleService-Info.plist */; };
+		77B7DE46D7E659732D85AB0F /* Pods_Kitch_In.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9FD9E066EDDC4044369DAE /* Pods_Kitch_In.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C3D45F18FA988494ED61E60 /* Pods-Kitch In.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitch In.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kitch In/Pods-Kitch In.debug.xcconfig"; sourceTree = "<group>"; };
+		2410D7F721A14A4C00904CF0 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		248A587C21A146590039097B /* Kitch In.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitch In.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		248A587F21A146590039097B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		248A588121A146590039097B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		248A588921A1465B0039097B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		248A588C21A1465B0039097B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		248A588E21A1465B0039097B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248A589421A149710039097B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2F081C2F390DB8492DB5C974 /* Pods-Kitch In.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitch In.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kitch In/Pods-Kitch In.release.xcconfig"; sourceTree = "<group>"; };
+		5D9FD9E066EDDC4044369DAE /* Pods_Kitch_In.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kitch_In.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77B7DE46D7E659732D85AB0F /* Pods_Kitch_In.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,9 @@
 			children = (
 				248A587E21A146590039097B /* Kitch In */,
 				248A587D21A146590039097B /* Products */,
+				2410D7F721A14A4C00904CF0 /* Podfile */,
+				A78D1178CF3B49BC7E8B7807 /* Pods */,
+				F669B686C5C07F7485F410BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +75,26 @@
 				248A588B21A1465B0039097B /* LaunchScreen.storyboard */,
 				248A588E21A1465B0039097B /* Info.plist */,
 				248A588621A1465A0039097B /* Kitch_In.xcdatamodeld */,
+				248A589421A149710039097B /* GoogleService-Info.plist */,
 			);
 			path = "Kitch In";
+			sourceTree = "<group>";
+		};
+		A78D1178CF3B49BC7E8B7807 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C3D45F18FA988494ED61E60 /* Pods-Kitch In.debug.xcconfig */,
+				2F081C2F390DB8492DB5C974 /* Pods-Kitch In.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F669B686C5C07F7485F410BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D9FD9E066EDDC4044369DAE /* Pods_Kitch_In.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 248A589121A1465B0039097B /* Build configuration list for PBXNativeTarget "Kitch In" */;
 			buildPhases = (
+				225FF525AFBDCC66DA90884B /* [CP] Check Pods Manifest.lock */,
 				248A587821A146590039097B /* Sources */,
 				248A587921A146590039097B /* Frameworks */,
 				248A587A21A146590039097B /* Resources */,
+				EF978855FE76ED634F3AF2A8 /* [CP] Embed Pods Frameworks */,
+				D373284FA32536940706E034 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,13 +158,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2410D7F821A14A4C00904CF0 /* Podfile in Resources */,
 				248A588D21A1465B0039097B /* LaunchScreen.storyboard in Resources */,
+				248A589521A149710039097B /* GoogleService-Info.plist in Resources */,
 				248A588A21A1465B0039097B /* Assets.xcassets in Resources */,
 				248A588521A146590039097B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		225FF525AFBDCC66DA90884B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kitch In-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D373284FA32536940706E034 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kitch In/Pods-Kitch In-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kitch In/Pods-Kitch In-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF978855FE76ED634F3AF2A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kitch In/Pods-Kitch In-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kitch In/Pods-Kitch In-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		248A587821A146590039097B /* Sources */ = {
@@ -284,6 +394,7 @@
 		};
 		248A589221A1465B0039097B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C3D45F18FA988494ED61E60 /* Pods-Kitch In.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +413,7 @@
 		};
 		248A589321A1465B0039097B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F081C2F390DB8492DB5C974 /* Pods-Kitch In.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
